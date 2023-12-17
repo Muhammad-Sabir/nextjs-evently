@@ -206,11 +206,11 @@ body {
 
 	/* SHADCN OVERRIDES */
 	.select-field {
-		@apply w-full bg-grey-50 h-[54px] placeholder:text-grey-500 rounded-full p-regular-16 px-5 py-3 border-none focus-visible:ring-transparent focus:ring-transparent !important;
+		@apply w-full bg-grey-50 h-[54px] placeholder:text-grey-500 rounded-md p-regular-16 px-5 py-3 border-none focus-visible:ring-transparent focus:ring-transparent !important;
 	}
 
 	.input-field {
-		@apply bg-grey-50 h-[54px] focus-visible:ring-offset-0 placeholder:text-grey-500 rounded-full p-regular-16 px-4 py-3 border-none focus-visible:ring-transparent !important;
+		@apply bg-grey-50 h-[54px] focus-visible:ring-offset-0 placeholder:text-grey-500 rounded-md p-regular-16 px-4 py-3 border-none focus-visible:ring-transparent !important;
 	}
 
 	.textarea {
@@ -218,7 +218,7 @@ body {
 	}
 
 	.button {
-		@apply rounded-full h-[54px] p-regular-16;
+		@apply rounded-md h-[54px] p-regular-16;
 	}
 
 	.select-item {
