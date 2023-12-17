@@ -43,7 +43,7 @@ const EventDetails = async ({
 											? 'FREE'
 											: `$${event.price}`}
 									</p>
-									<p className="p-medium-16 rounded-md bg-grey-500/10 px-4 py-2.5 text-grey-500">
+									<p className="p-medium-16 rounded-md bg-grey-500/10 px-4 py-2.5 text-grey-500 whitespace-nowrap">
 										{event.category.name}
 									</p>
 								</div>
