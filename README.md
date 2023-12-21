@@ -26,18 +26,25 @@ To run Evently locally, follow these steps:
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/Muhammad-Sabir/nextjs-evently.git```
+git clone https://github.com/Muhammad-Sabir/nextjs-evently.git
+```
 
 2. Navigate to the project directory:
 
-```cd nextjs-evently```
+```
+cd nextjs-evently
+```
 
 3. Install dependencies:
 
-```npm install```
+```
+npm install
+```
 
 4. Run the development server:
 
-```npm run dev```
+```
+npm run dev
+```
 
 5. Open your browser and go to http://localhost:3000
